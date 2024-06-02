@@ -7,13 +7,13 @@
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat";
     line-height: 1.5;
-    background-image: background-color: #ffffff;
+    background-color: #ffffff;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");;
   
-    --primary-text-color: #181820;
-    --secondary-text-color: #5c5c62;
+    --primary-text-color: #000000;
+    --secondary-text-color: #2d2d30;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
@@ -130,8 +130,8 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
@@ -280,15 +280,17 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
     table-layout: fixed;
     color: var(--secondary-text-color);
+    line-height: 200%;
   }
 
+  
   .additional-info__languages-item {
     width: max-content;
     
-    
-    text-align: center;
+    text-align: left;
     
     color: var(--secondary-text-color);
   }
