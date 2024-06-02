@@ -9,6 +9,8 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    background-image: background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");;
   
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
@@ -16,6 +18,7 @@
     --icon-color: #6a737d;
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
+    
   }
   
   .container {
@@ -37,6 +40,7 @@
   }
   
   .resume {
+    background-color:azure;
     margin: 50px auto;
     border: 1px solid #f5f5f5;
     box-shadow: 1px 1px 7px 7px #f5f5f5;
@@ -267,9 +271,8 @@
   }
 
   /* Table styles */
-  tr:nth-child(even) {
-    background-color: #D6EEEE;
-  }
+  
+  
 
   table {
     border-spacing: 30px 0;
@@ -278,6 +281,15 @@
     margin-right: auto;
     text-align: center;
     table-layout: fixed;
+    color: var(--secondary-text-color);
+  }
+
+  .additional-info__languages-item {
+    width: max-content;
+    
+    
+    text-align: center;
+    
     color: var(--secondary-text-color);
   }
   
