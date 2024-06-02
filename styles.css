@@ -265,4 +265,19 @@
   .additional-info__languages-item {
     color: var(--secondary-text-color);
   }
+
+  /* Table styles */
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+  table {
+    border-spacing: 30px 0;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    table-layout: fixed;
+    color: var(--secondary-text-color);
+  }
   
